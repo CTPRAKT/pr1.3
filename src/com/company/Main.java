@@ -7,5 +7,7 @@ public class Main {
     ball n2=new ball("cloth",7);
     ball n3=new ball("leather",8);
         System.out.println(n1.getMaterial()+"   "+n1.getRadius()+"\n"+n2.getMaterial()+"   "+n2.getRadius()+"\n"+n3.getMaterial()+"   "+n3.getRadius());
+        System.out.println(n1.toString());
     }
+
 }

@@ -23,4 +23,12 @@ public class ball {
         radius=r;
         material=m;
     }
+
+    @Override
+    public String toString() {
+        return "ball{" +
+                "radius=" + radius +
+                ", material='" + material + '\'' +
+                '}';
+    }
 }
